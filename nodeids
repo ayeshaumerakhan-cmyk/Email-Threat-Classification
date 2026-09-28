@@ -1,0 +1,6 @@
+[
+  "tests/test_dataset.py::test_corpus_rows_are_labeled_and_featured",
+  "tests/test_features.py::test_feature_extraction_captures_expected_email_signals",
+  "tests/test_features.py::test_feature_extraction_rejects_negative_attachment_count",
+  "tests/test_features.py::test_message_parser_extracts_mime_attachment_and_body"
+]

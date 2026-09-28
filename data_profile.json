@@ -1,0 +1,173 @@
+{
+  "records": 3253,
+  "class_counts": {
+    "ham": 2752,
+    "spam": 501
+  },
+  "class_proportions": {
+    "ham": 0.8459883184752536,
+    "spam": 0.1540116815247464
+  },
+  "missing_values": {
+    "label": 0,
+    "message_length_chars": 0,
+    "word_count": 0,
+    "url_count": 0,
+    "attachment_count": 0,
+    "subject_has_urgent": 0,
+    "subject_has_account": 0,
+    "body_has_urgent": 0,
+    "body_has_verify": 0,
+    "body_has_winner": 0,
+    "body_has_password": 0,
+    "sender_is_noreply": 0,
+    "sender_domain_has_digit": 0,
+    "has_html": 0,
+    "subject_length_chars": 0,
+    "uppercase_ratio": 0
+  },
+  "duplicate_feature_rows": 64,
+  "numeric_summary": {
+    "message_length_chars": {
+      "mean": 2211.8791884414386,
+      "median": 992.0,
+      "min": 0.0,
+      "max": 202500.0,
+      "iqr_outlier_count": 364
+    },
+    "word_count": {
+      "mean": 307.9827851214264,
+      "median": 149.0,
+      "min": 0.0,
+      "max": 23997.0,
+      "iqr_outlier_count": 338
+    },
+    "url_count": {
+      "mean": 2.9797110359667998,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 3134.0,
+      "iqr_outlier_count": 384
+    },
+    "attachment_count": {
+      "mean": 0.01567783584383646,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 18.0,
+      "iqr_outlier_count": 31
+    },
+    "subject_has_urgent": {
+      "mean": 0.003381494005533354,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 11
+    },
+    "subject_has_account": {
+      "mean": 0.002459268367660621,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 8
+    },
+    "body_has_urgent": {
+      "mean": 0.04180756225023056,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 136
+    },
+    "body_has_verify": {
+      "mean": 0.011988933292345526,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 39
+    },
+    "body_has_winner": {
+      "mean": 0.010144482016600061,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 33
+    },
+    "body_has_password": {
+      "mean": 0.013525976022133415,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 44
+    },
+    "sender_is_noreply": {
+      "mean": 0.0003074085459575776,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 1
+    },
+    "sender_domain_has_digit": {
+      "mean": 0.040270519520442666,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 131
+    },
+    "has_html": {
+      "mean": 0.3661235782354749,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 0
+    },
+    "subject_length_chars": {
+      "mean": 37.425146019059326,
+      "median": 34.0,
+      "min": 0.0,
+      "max": 150.0,
+      "iqr_outlier_count": 59
+    },
+    "uppercase_ratio": {
+      "mean": 0.07286879976048372,
+      "median": 0.0580431177446102,
+      "min": 0.0,
+      "max": 1.0,
+      "iqr_outlier_count": 194
+    }
+  },
+  "feature_medians_by_class": {
+    "0": {
+      "message_length_chars": 934.5,
+      "word_count": 145.0,
+      "url_count": 1.0,
+      "attachment_count": 0.0,
+      "subject_has_urgent": 0.0,
+      "subject_has_account": 0.0,
+      "body_has_urgent": 0.0,
+      "body_has_verify": 0.0,
+      "body_has_winner": 0.0,
+      "body_has_password": 0.0,
+      "sender_is_noreply": 0.0,
+      "sender_domain_has_digit": 0.0,
+      "has_html": 0.0,
+      "subject_length_chars": 34.0,
+      "uppercase_ratio": 0.055045871559633
+    },
+    "1": {
+      "message_length_chars": 1350.0,
+      "word_count": 171.0,
+      "url_count": 1.0,
+      "attachment_count": 0.0,
+      "subject_has_urgent": 0.0,
+      "subject_has_account": 0.0,
+      "body_has_urgent": 0.0,
+      "body_has_verify": 0.0,
+      "body_has_winner": 0.0,
+      "body_has_password": 0.0,
+      "sender_is_noreply": 0.0,
+      "sender_domain_has_digit": 0.0,
+      "has_html": 1.0,
+      "subject_length_chars": 37.0,
+      "uppercase_ratio": 0.0918032786885245
+    }
+  }
+}

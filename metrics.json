@@ -1,0 +1,40 @@
+{
+  "dataset": "Apache SpamAssassin Public Corpus (2003-02-28)",
+  "records": 3253,
+  "train_records": 2602,
+  "test_records": 651,
+  "test_size": 0.2,
+  "seed": 42,
+  "features": [
+    "message_length_chars",
+    "word_count",
+    "url_count",
+    "attachment_count",
+    "subject_has_urgent",
+    "subject_has_account",
+    "body_has_urgent",
+    "body_has_verify",
+    "body_has_winner",
+    "body_has_password",
+    "sender_is_noreply",
+    "sender_domain_has_digit",
+    "has_html",
+    "subject_length_chars",
+    "uppercase_ratio"
+  ],
+  "accuracy": 0.7818740399385561,
+  "precision": 0.3793103448275862,
+  "recall": 0.66,
+  "f1": 0.48175182481751827,
+  "roc_auc": 0.7768239564428312,
+  "confusion_matrix": [
+    [
+      443,
+      108
+    ],
+    [
+      34,
+      66
+    ]
+  ]
+}
